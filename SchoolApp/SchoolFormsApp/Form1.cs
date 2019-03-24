@@ -37,6 +37,8 @@ namespace SchoolFormsApp
             {
                 MessageBox.Show(ex.Message);
             }
+
+            MessageBox.Show(testSchool.ToString());
         }
     }
 }

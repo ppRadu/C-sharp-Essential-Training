@@ -70,7 +70,7 @@ namespace SchoolLibrary
 
             sb.AppendLine(Name);
             sb.AppendLine(Address);
-            sb.AppendLine(City);
+            sb.Append(City);
             sb.AppendFormat(", {0}  {1}", State, Zip);
 
             return sb.ToString();
