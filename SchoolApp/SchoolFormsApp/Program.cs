@@ -16,7 +16,7 @@ namespace SchoolFormsApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new txtPhone());
+            Application.Run(new Form1());
         }
     }
 }
