@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace SchoolLibrary
 {
-    class Teacher : Person
+    public class Teacher : Person
     {
         public string Subject { get; set; }
+
+        public override float ComputeGradeAverage()
+        {
+            // TODO: Fix the implementation
+            return 0.0f;
+        }
     }
 }
